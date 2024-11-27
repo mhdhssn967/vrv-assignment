@@ -165,7 +165,7 @@ const updateEmployee=async()=>{
         style={{ width: '100%', marginTop: '50px' }}
         className="d-flex flex-column align-items-center mt-5"
       >
-        <h1>Employee Management App</h1>
+        <h1 style={{textAlign:'center'}}>Employee Management App</h1>
         <h2>Logged in as {user}</h2>
         {user == 'Admin' &&
           <Add />
@@ -186,25 +186,21 @@ const updateEmployee=async()=>{
 
             >
               <th
-                className="p-2"
                 style={{ backgroundColor: 'rgb(255, 205, 205)' }}
               >
                 ID
               </th>
               <th
-                className="p-2"
                 style={{ backgroundColor: 'rgb(255, 205, 205)' }}
               >
                 Name
               </th>
               <th
-                className="p-2"
                 style={{ backgroundColor: 'rgb(255, 205, 205)' }}
               >
                 Role
               </th>
               <th
-                className="p-2"
                 style={{ backgroundColor: 'rgb(255, 205, 205)' }}
               >
                 Status
