@@ -172,7 +172,6 @@ const updateEmployee=async()=>{
         }
         <table
           style={{
-            width: '60%',
             border: 'solid 0.5px',
             marginTop: "25px",
             textAlign: 'center'
