@@ -21,3 +21,14 @@
 .adminbtn{
     background-color: rgb(134, 255, 134);
 }
+.buttondiv{
+    margin-top: 1%;
+    width: 90vw; 
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (min-width: 1024px) { 
+    .buttondiv {
+      width: 40%;
+    }
+  }
