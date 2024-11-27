@@ -169,12 +169,11 @@ const updateEmployee=async()=>{
         <h2>Logged in as {user}</h2>
         {user == 'Admin' &&
           <Add />
-        }<div className='tablemain' style={{marginTop: "1%",overflow:'hidden',borderRadius:'15px',border: '1px solid black'}}>
+        }<div className='tablemain' style={{marginTop: "1%",overflow:'hidden',borderRadius:'15px',border: '1px solid black',width:'80vw'}}>
         <table
           style={{
             textAlign: 'center',
             width: '100%',
-            maxWidth: '1200px', 
             borderRadius: '8px', 
           }}
         >
