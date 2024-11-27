@@ -182,7 +182,6 @@ const updateEmployee=async()=>{
               style={{
                 borderBottom: 'solid 0.5px',
                 height: '50px',
-                fontSize: '17px',
               }}
 
             >
@@ -224,14 +223,14 @@ const updateEmployee=async()=>{
             {employees &&
               employees?.map((details) =>
                 <tr key={details.id} style={{ borderBottom: 'solid 0.5px' }} className='trow'>
-                  <td className="p-2">{details.id}</td>
-                  <td className="p-2">{details.name}</td>
-                  <td className="p-2">{details.role}</td>
+                  <td>{details.id}</td>
+                  <td>{details.name}</td>
+                  <td>{details.role}</td>
                   <td className={details.status == 'Active' ? 'text-success' : 'text-danger'} >{details.status}</td>
                   {/* conditional render according to user */}
                   {
                     user == 'Admin' && (
-                      <td className="p-2">
+                      <td>
                         <button className="actionbtn editbtn" onClick={()=>handleEditEmployee(details)}>Edit</button>
                         <button className="actionbtn deletebtn" onClick={() => deleteEmployee(details.id)}>Delete</button>
                       </td>
