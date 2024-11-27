@@ -1,0 +1,23 @@
+.logbtn{
+    width: 180px;
+    padding: 17px;
+    margin: 1%;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.logbtn:hover{
+    transform: translate(-5px,-5px);
+    box-shadow: 5px 5px 1px black;
+}
+.logbtn:active{
+    box-shadow: 0px 0px 1px black;
+    transform: translate(3px,3px);
+}
+.userbtn{
+    background-color: rgb(235, 255, 122);
+}
+.adminbtn{
+    background-color: rgb(134, 255, 134);
+}
