@@ -169,12 +169,13 @@ const updateEmployee=async()=>{
         <h2>Logged in as {user}</h2>
         {user == 'Admin' &&
           <Add />
-        }
+        }<div className='tablemain' style={{marginTop: "1%",overflow:'hidden',borderRadius:'15px',border: '1px solid black'}}>
         <table
           style={{
-            border: 'solid 0.5px',
-            marginTop: "25px",
-            textAlign: 'center'
+            textAlign: 'center',
+            width: '100%',
+            maxWidth: '1200px', 
+            borderRadius: '8px', 
           }}
         >
           <thead>
@@ -240,6 +241,7 @@ const updateEmployee=async()=>{
               )}
           </tbody>
         </table>
+        </div>
       </div>
     </>
   );

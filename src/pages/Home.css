@@ -29,8 +29,6 @@
     transform: scale(1.02);
     transition: 0.2s;
     background-color: rgb(189, 247, 151);
-    font-weight: 700;
-
 }
 .trow{
     transition: 0.2s;
