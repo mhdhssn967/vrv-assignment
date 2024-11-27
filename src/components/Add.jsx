@@ -71,11 +71,11 @@ const Add = () => {
                         </Typography>
                         <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                             <h6 style={{ marginTop: '20px' }}>Name</h6>
-                            <TextField onChange={(e)=>setEmpDetails({...empDetails,name:e.target.value})} style={{ width: '400px' }} id="outlined-basic" label="Enter the name of the employee" variant="outlined" />
+                            <TextField onChange={(e)=>setEmpDetails({...empDetails,name:e.target.value})} style={{ width: '100%' }} id="outlined-basic" label="Enter the name of the employee" variant="outlined" />
                             <h6 style={{ marginTop: '20px' }}>Role</h6>
                              {/* Role selection */}
                             <Box sx={{ minWidth: 120 }}>
-                                <FormControl style={{ width: '400px' }}>
+                                <FormControl style={{ width: '100%' }}>
                                     <InputLabel id="demo-simple-select-label">Select the role of the employee</InputLabel>
                                     <Select
                                         labelId="demo-simple-select-label"
@@ -97,7 +97,7 @@ const Add = () => {
 
                             <h6 style={{ marginTop: '20px' }}>Status</h6>
                             <Box sx={{ minWidth: 120 }}>
-                                <FormControl style={{ width: '400px' }}>
+                                <FormControl style={{ width: '100%' }}>
                                     <InputLabel id="demo-simple-select-label">Select the status of the employee</InputLabel>
                                     <Select
                                         labelId="demo-simple-select-label"
